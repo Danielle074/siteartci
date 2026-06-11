@@ -81,7 +81,7 @@
             </div>
             <h3 class="text-xl font-bold text-gray-800 mb-3">Innovation</h3>
             <p class="text-gray-600 text-sm leading-relaxed">
-              Promotion de l’innovation et du développement technologique.
+              Promotion de l'innovation et du développement technologique.
             </p>
           </div>
 
@@ -103,7 +103,7 @@
             </div>
             <h3 class="text-xl font-bold text-gray-800 mb-3">Inclusion</h3>
             <p class="text-gray-600 text-sm leading-relaxed">
-              Développement d’un numérique accessible et inclusif pour tous.
+              Développement d'un numérique accessible et inclusif pour tous.
             </p>
           </div>
         </div>
@@ -435,12 +435,10 @@
 <script setup>
 import { ref } from "vue";
 
-// 🔥 IMPORT DE TOUTES LES IMAGES DEPUIS LE DOSSIER ASSETS
-import heroImage from "@/assets/images/header1.jpg";        // Image principale (hero)
-import articleImage2 from "@/assets/images/header2.jpg";    // Article 2
-import articleImage3 from "@/assets/images/header3.jpg";    // Article 3
-
-// Images pour la médiathèque (les mêmes fichiers, mais tu peux les importer séparément si besoin)
+// IMPORT DES IMAGES
+import heroImage from "@/assets/images/header1.jpg";
+import articleImage2 from "@/assets/images/header2.jpg";
+import articleImage3 from "@/assets/images/header3.jpg";
 import photo1 from "@/assets/images/header1.jpg";
 import photo2 from "@/assets/images/header2.jpg";
 import photo3 from "@/assets/images/header3.jpg";
@@ -448,7 +446,7 @@ import photo3 from "@/assets/images/header3.jpg";
 // État pour les onglets
 const selectedTab = ref("photos");
 
-// Données pour la médiathèque (avec les images importées)
+// Données pour la médiathèque
 const photos = ref([
   { src: photo1, title: "Conférence ARTCI" },
   { src: photo2, title: "Atelier numérique" },
